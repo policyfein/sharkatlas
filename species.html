@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Species — Shark Atlas</title><link rel="stylesheet" href="styles.css"></head>
+<body><header class="site-header"><a class="brand" href="index.html"><span class="brand-mark">◈</span><span>SHARK ATLAS</span></a><button class="menu-toggle" aria-label="Open navigation">☰</button><nav class="nav"><a href="index.html">Explore</a><a class="active" href="species.html">Species</a><a href="anatomy.html">Anatomy</a><a href="evolution.html">Evolution</a><a href="habitats.html">Habitats</a><a href="quiz.html">Quiz</a><a href="sources.html">Sources</a></nav></header>
+<main class="page">
+<section class="page-head"><p class="kicker">SPECIES LIBRARY</p><h1>Meet the sharks.</h1><p>Search the atlas or filter by lifestyle. Select a species for a deeper profile.</p></section>
+<section class="toolbar"><input id="species-search" class="input" type="search" placeholder="Search species, genus or fact…" aria-label="Search species"><div class="filter-row" id="filters"><button class="chip active" data-filter="all">All</button><button class="chip" data-filter="giant">Giants</button><button class="chip" data-filter="deep">Deep sea</button><button class="chip" data-filter="fast">Fast swimmers</button><button class="chip" data-filter="coastal">Coastal</button></div></section>
+<section id="species-grid" class="species-grid"></section>
+<section id="species-modal" class="modal" hidden aria-modal="true" role="dialog"><div class="modal-inner"><button class="modal-close" aria-label="Close">×</button><div id="modal-content"></div></div></section>
+</main><footer><span>SHARK ATLAS</span><a href="sources.html">Sources & notes</a></footer><script src="app.js"></script></body></html>
